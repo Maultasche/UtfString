@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1187031490 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utf16charreference.cpp
+	<assert.h>
+	"..\include\UtfString.h"
+
+1187196180 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utfstring.h
+	<string>
+	<iostream>
+	<stdexcept>
+	<vector>
+	"UtfCommon.h"
+	"UtfStringConverter.h"
+	"Utf8String.h"
+	"Utf16String.h"
+
+1187044550 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utfcommon.h
+
+1187102944 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utfstringconverter.h
+
+1187189947 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf8string.h
+	"Utf8Char.h"
+	"Utf8CharReference.h"
+
+1187102118 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf8char.h
+
+1187045320 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf8charreference.h
+
+1187195437 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf16string.h
+	"Utf16Char.h"
+	"Utf16CharReference.h"
+
+1187102118 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf16char.h
+
+1187102118 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf16charreference.h
+
+1187037815 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utf8char.cpp
+	<assert.h>
+	"..\include\UtfString.h"
+
+1187037775 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utf8charreference.cpp
+	<assert.h>
+	"..\include\UtfString.h"
+
+1187197893 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utfstringconverter.cpp
+	<assert.h>
+	"..\include\UtfString.h"
+
+1187031541 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utf16char.cpp
+	<assert.h>
+	"..\include\UtfString.h"
+
+1187197939 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utf16string.cpp
+	<assert.h>
+	<sstream>
+	"..\include\UtfString.h"
+	<string>
+
+1187197810 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\src\utf8string.cpp
+	<assert.h>
+	<sstream>
+	"..\include\UtfString.h"
+
+1189606488 c:\cygwin\home\kpeter\projects\utfstring\src\utf16charreference.cpp
+	<assert.h>
+	<utfstring/UtfString.h>
+
+1194629602 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utfstring.h
+	<string>
+	<iostream>
+	<stdexcept>
+	<vector>
+	<config.h>
+	<utfstring/PlatformImplementations.h>
+	<utfstring/PlatformImplementations.h>
+	"UtfCommon.h"
+	"UtfStringConverter.h"
+	"Utf8String.h"
+	"Utf16String.h"
+
+1194629623 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\platformimplementations.h
+
+1192718723 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utfcommon.h
+
+1187099344 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utfstringconverter.h
+
+1192549294 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utf8string.h
+	"Utf8Char.h"
+	"Utf8CharReference.h"
+
+1194375708 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utf8char.h
+
+1192555056 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utf8charreference.h
+
+1193087381 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utf16string.h
+	"Utf16Char.h"
+	"Utf16CharReference.h"
+
+1193322489 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utf16char.h
+
+1194375708 c:\cygwin\home\kpeter\projects\utfstring\include\utfstring\utf16charreference.h
+
+1192727838 c:\cygwin\home\kpeter\projects\utfstring\src\utf16string.cpp
+	<assert.h>
+	<sstream>
+	<utfstring/UtfString.h>
+	<string>
+

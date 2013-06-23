@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="UtfStringUnitTests"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option active_target="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="Debug">
+				<Option output="..\..\..\tests\bin\UtfStringUnitTests.exe"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectIncludeDirsRelation="2"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+				<Option projectLibDirsRelation="2"/>
+				<Compiler>
+					<Add option="-W"/>
+					<Add option="-Wall"/>
+					<Add option="-g"/>
+					<Add option="-DGCC"/>
+					<Add option="-DWIN32"/>
+					<Add option="-DUTFSTRING_DLL"/>
+					<Add directory="C:\Documents and Settings\kpeter\My Documents\Libraries\cppunit-1.12.0\include"/>
+				</Compiler>
+				<Linker>
+					<Add library="libcppunit.dll.a"/>
+					<Add library="libUtfStringd.a"/>
+					<Add directory="C:\Documents and Settings\kpeter\My Documents\Libraries\cppunit-1.12.0\lib"/>
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="..\..\..\tests\bin\UtfStringUnitTests.exe"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="0"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Option projectLibDirsRelation="2"/>
+				<Compiler>
+					<Add option="-fexpensive-optimizations"/>
+					<Add option="-O2"/>
+					<Add option="-W"/>
+					<Add option="-Wall"/>
+					<Add option="-DGCC"/>
+					<Add option="-DWIN32"/>
+					<Add option="-DUTFSTRING_DLL"/>
+					<Add directory="C:\Documents and Settings\kpeter\My Documents\Libraries\cppunit-1.12.0\include"/>
+				</Compiler>
+				<Linker>
+					<Add option="-s"/>
+					<Add library="libcppunit.dll.a"/>
+					<Add library="libUtfString.a"/>
+					<Add directory="C:\Documents and Settings\kpeter\My Documents\Libraries\cppunit-1.12.0\lib"/>
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="C:\Documents and Settings\kpeter\My Documents\Libraries\cppunit-1.12.0\include"/>
+		</Compiler>
+		<Linker>
+			<Add directory="C:\Documents and Settings\kpeter\My Documents\Libraries\cppunit-1.12.0\lib"/>
+			<Add directory="..\..\..\lib"/>
+		</Linker>
+		<Unit filename="..\..\..\tests\StringConverterTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\StringConverterTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\TestRunner.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf16CharReferenceTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf16CharReferenceTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf16CharTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf16CharTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf16StringTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf16StringTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf8CharReferenceTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf8CharReferenceTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf8CharTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf8CharTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf8StringTest.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+		<Unit filename="..\..\..\tests\Utf8StringTest.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Debug"/>
+			<Option target="Release"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

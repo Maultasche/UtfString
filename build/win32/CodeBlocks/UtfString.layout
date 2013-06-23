@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="..\..\..\include\utfstring\PlatformImplementations.h" open="1" top="0">
+		<Cursor position="964" topLine="2"/>
+	</File>
+	<File name="..\..\..\include\utfstring\Utf16Char.h" open="1" top="0">
+		<Cursor position="12597" topLine="273"/>
+	</File>
+	<File name="..\..\..\include\utfstring\UtfString.h" open="1" top="0">
+		<Cursor position="5677" topLine="123"/>
+	</File>
+	<File name="..\..\..\src\Utf16Char.cpp" open="1" top="0">
+		<Cursor position="1740" topLine="57"/>
+	</File>
+	<File name="..\..\..\src\Utf16CharReference.cpp" open="1" top="0">
+		<Cursor position="556" topLine="0"/>
+	</File>
+	<File name="..\..\..\src\Utf16String.cpp" open="1" top="0">
+		<Cursor position="3880" topLine="109"/>
+	</File>
+	<File name="..\..\..\src\Utf8Char.cpp" open="1" top="0">
+		<Cursor position="2920" topLine="93"/>
+	</File>
+	<File name="..\..\..\src\Utf8CharReference.cpp" open="1" top="1">
+		<Cursor position="698" topLine="0"/>
+	</File>
+	<File name="..\..\..\src\Utf8String.cpp" open="0" top="0">
+		<Cursor position="896" topLine="20"/>
+	</File>
+	<File name="..\..\..\src\UtfStringConverter.cpp" open="0" top="0">
+		<Cursor position="6403" topLine="171"/>
+	</File>
+	<Expand folder="/Sources/src"/>
+	<Expand folder="/Sources"/>
+	<Expand folder="/Headers/include/utfstring"/>
+	<Expand folder="/Headers/include"/>
+	<Expand folder="/Headers"/>
+</CodeBlocks_layout_file>

@@ -1,0 +1,52 @@
+# Project: UtfString
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = ./UtfString/Utf8Char.o ./UtfString/Utf8CharReference.o ./UtfString/Utf8String.o ./UtfString/Utf16Char.o ./UtfString/Utf16CharReference.o ./UtfString/Utf16String.o ./UtfString/UtfStringConverter.o $(RES)
+LINKOBJ  = ./UtfString/Utf8Char.o ./UtfString/Utf8CharReference.o ./UtfString/Utf8String.o ./UtfString/Utf16Char.o ./UtfString/Utf16CharReference.o ./UtfString/Utf16String.o ./UtfString/UtfStringConverter.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" --no-export-all-symbols --add-stdcall-alias  
+INCS =  -I"C:/Dev-Cpp/include"  -I"../../../include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"../../../include" 
+BIN  = ../../../lib/UtfString.dll
+CXXFLAGS = $(CXXINCS) -DBUILDING_DLL=1 -DWIN32 -DDEVCPP   -O2
+CFLAGS = $(INCS) -DBUILDING_DLL=1 -DWIN32 -DDEVCPP   -O2
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before ../../../lib/UtfString.dll all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe
+DEFFILE=../../../lib/libUtfString.def
+STATICLIB=../../../lib/libUtfString.a
+
+$(BIN): $(LINKOBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --driver-name c++ --implib $(STATICLIB) $(LINKOBJ) $(LIBS) -o $(BIN)
+
+./UtfString/Utf8Char.o: ../../../src/Utf8Char.cpp
+	$(CPP) -c ../../../src/Utf8Char.cpp -o ./UtfString/Utf8Char.o $(CXXFLAGS)
+
+./UtfString/Utf8CharReference.o: ../../../src/Utf8CharReference.cpp
+	$(CPP) -c ../../../src/Utf8CharReference.cpp -o ./UtfString/Utf8CharReference.o $(CXXFLAGS)
+
+./UtfString/Utf8String.o: ../../../src/Utf8String.cpp
+	$(CPP) -c ../../../src/Utf8String.cpp -o ./UtfString/Utf8String.o $(CXXFLAGS)
+
+./UtfString/Utf16Char.o: ../../../src/Utf16Char.cpp
+	$(CPP) -c ../../../src/Utf16Char.cpp -o ./UtfString/Utf16Char.o $(CXXFLAGS)
+
+./UtfString/Utf16CharReference.o: ../../../src/Utf16CharReference.cpp
+	$(CPP) -c ../../../src/Utf16CharReference.cpp -o ./UtfString/Utf16CharReference.o $(CXXFLAGS)
+
+./UtfString/Utf16String.o: ../../../src/Utf16String.cpp
+	$(CPP) -c ../../../src/Utf16String.cpp -o ./UtfString/Utf16String.o $(CXXFLAGS)
+
+./UtfString/UtfStringConverter.o: ../../../src/UtfStringConverter.cpp
+	$(CPP) -c ../../../src/UtfStringConverter.cpp -o ./UtfString/UtfStringConverter.o $(CXXFLAGS)

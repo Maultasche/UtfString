@@ -1,0 +1,238 @@
+# depslib dependency file v1.0
+1181579873 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\stringconvertertest.cpp
+	<string>
+	"StringConverterTest.h"
+	"..\include\UtfString.h"
+
+1187644120 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\stringconvertertest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+
+1026453598 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testfixture.h
+	<cppunit/Portability.h>
+
+1151615558 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\portability.h
+	<cppunit/config/config-bcb5.h>
+	<cppunit/config/config-evc4.h>
+	<cppunit/config/config-msvc6.h>
+	<cppunit/config-auto.h>
+	<cppunit/config/CppUnitApi.h>
+	<cppunit/config/SelectDllLoader.h>
+
+1026453598 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\config\config-bcb5.h
+
+1088165724 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\config\config-evc4.h
+
+1122706958 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\config\config-msvc6.h
+
+1187634187 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\config-auto.h
+
+1019123294 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\config\cppunitapi.h
+
+1052339354 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\config\selectdllloader.h
+
+1120894968 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testsuite.h
+	<cppunit/Portability.h>
+	<cppunit/TestComposite.h>
+	<cppunit/portability/CppUnitVector.h>
+
+1026453598 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testcomposite.h
+	<cppunit/Test.h>
+	<string>
+
+1026453598 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\test.h
+	<cppunit/Portability.h>
+	<string>
+
+1032201412 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\portability\cppunitvector.h
+	<cppunit/Portability.h>
+	<vector>
+
+1028389672 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testcaller.h
+	<cppunit/Exception.h>
+	<cppunit/TestCase.h>
+	<cppunit/extensions/TypeInfoHelper.h>
+
+1030649228 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\exception.h
+	<cppunit/Portability.h>
+	<cppunit/Message.h>
+	<cppunit/SourceLine.h>
+	<exception>
+
+1100894444 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\message.h
+	<cppunit/Portability.h>
+	<cppunit/portability/CppUnitDeque.h>
+	<string>
+
+1032201412 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\portability\cppunitdeque.h
+	<cppunit/Portability.h>
+	<deque>
+
+1100894444 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\sourceline.h
+	<cppunit/Portability.h>
+	<string>
+
+1028389672 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testcase.h
+	<cppunit/Portability.h>
+	<cppunit/TestLeaf.h>
+	<cppunit/TestAssert.h>
+	<cppunit/TestFixture.h>
+	<string>
+
+1026453598 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testleaf.h
+	<cppunit/Test.h>
+
+1131296302 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testassert.h
+	<cppunit/Portability.h>
+	<cppunit/Exception.h>
+	<cppunit/Asserter.h>
+	<cppunit/portability/Stream.h>
+	<stdio.h>
+	<float.h>
+
+1030606610 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\asserter.h
+	<cppunit/AdditionalMessage.h>
+	<cppunit/SourceLine.h>
+	<string>
+
+1026453596 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\additionalmessage.h
+	<cppunit/Message.h>
+
+1130444554 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\portability\stream.h
+	<cppunit/Portability.h>
+	<string>
+	<stdio.h>
+	<string.h>
+	<sstream>
+	<fstream>
+	<string>
+	<strstream>
+	<strstream.h>
+	<iostream>
+
+1088160088 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\extensions\typeinfohelper.h
+	<cppunit/Portability.h>
+	<typeinfo>
+	<string>
+
+1187196180 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utfstring.h
+	<string>
+	<iostream>
+	<stdexcept>
+	<vector>
+	"UtfCommon.h"
+	"UtfStringConverter.h"
+	"Utf8String.h"
+	"Utf16String.h"
+
+1187044550 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utfcommon.h
+
+1187102944 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utfstringconverter.h
+
+1187646418 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf8string.h
+	"Utf8Char.h"
+	"Utf8CharReference.h"
+
+1187645910 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf8char.h
+
+1187045320 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf8charreference.h
+
+1187646370 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf16string.h
+	"Utf16Char.h"
+	"Utf16CharReference.h"
+
+1187646224 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf16char.h
+
+1187102118 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\include\utf16charreference.h
+
+1187646028 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\testrunner.cpp
+	<cppunit/ui/text/TestRunner.h>
+	"StringConverterTest.h"
+	"Utf16StringTest.h"
+	"Utf16CharTest.h"
+	"Utf16CharReferenceTest.h"
+	"Utf8CharTest.h"
+	"Utf8CharReferenceTest.h"
+	"Utf8StringTest.h"
+
+1026676112 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\ui\text\testrunner.h
+	<cppunit/ui/text/TextTestRunner.h>
+
+1151606290 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\ui\text\texttestrunner.h
+	<cppunit/Portability.h>
+	<string>
+	<cppunit/TestRunner.h>
+
+1030649228 c:\documents and settings\kpeter\my documents\libraries\cppunit-1.12.0\include\cppunit\testrunner.h
+	<cppunit/TestSuite.h>
+	<string>
+
+1187646035 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf16stringtest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+	"..\include\UtfString.h"
+
+1187646035 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf16chartest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+	"..\include\UtfString.h"
+
+1187646066 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf16charreferencetest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+	"..\include\UtfString.h"
+
+1187646035 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf8chartest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+	"..\include\UtfString.h"
+
+1187646035 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf8charreferencetest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+	"..\include\UtfString.h"
+
+1187646032 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf8stringtest.h
+	<cppunit/TestFixture.h>
+	<cppunit/TestSuite.h>
+	<cppunit/TestCaller.h>
+	"..\include\UtfString.h"
+
+1187031908 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf16charreferencetest.cpp
+	<string>
+	"Utf16CharReferenceTest.h"
+	"..\include\UtfString.h"
+
+1187031915 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf16chartest.cpp
+	<string>
+	"Utf16CharTest.h"
+	"..\include\UtfString.h"
+
+1186506411 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf16stringtest.cpp
+	<sstream>
+	<string>
+	"Utf16StringTest.h"
+	"..\include\UtfString.h"
+
+1187037853 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf8charreferencetest.cpp
+	<string>
+	"Utf8CharReferenceTest.h"
+	"..\include\UtfString.h"
+
+1187037135 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf8chartest.cpp
+	<string>
+	"Utf8CharTest.h"
+	"..\include\UtfString.h"
+
+1186522271 c:\documents and settings\kpeter\my documents\visual studio 2005\projects\utfstring\tests\utf8stringtest.cpp
+	<sstream>
+	<string>
+	"Utf8StringTest.h"
+	"..\include\UtfString.h"
+

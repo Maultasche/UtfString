@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="..\..\..\tests\StringConverterTest.h" open="0" top="0">
+		<Cursor position="1200" topLine="6"/>
+	</File>
+	<File name="..\..\..\tests\TestRunner.cpp" open="1" top="0">
+		<Cursor position="329" topLine="0"/>
+	</File>
+	<File name="..\..\..\tests\Utf16CharReferenceTest.h" open="1" top="0">
+		<Cursor position="3671" topLine="67"/>
+	</File>
+	<File name="..\..\..\tests\Utf16CharTest.h" open="1" top="0">
+		<Cursor position="2779" topLine="61"/>
+	</File>
+	<File name="..\..\..\tests\Utf16StringTest.cpp" open="0" top="0">
+		<Cursor position="172331" topLine="3954"/>
+	</File>
+	<File name="..\..\..\tests\Utf16StringTest.h" open="1" top="0">
+		<Cursor position="14146" topLine="410"/>
+	</File>
+	<File name="..\..\..\tests\Utf8CharReferenceTest.cpp" open="0" top="0">
+		<Cursor position="0" topLine="1660"/>
+	</File>
+	<File name="..\..\..\tests\Utf8CharReferenceTest.h" open="1" top="0">
+		<Cursor position="3818" topLine="82"/>
+	</File>
+	<File name="..\..\..\tests\Utf8CharTest.h" open="1" top="0">
+		<Cursor position="2751" topLine="61"/>
+	</File>
+	<File name="..\..\..\tests\Utf8StringTest.h" open="1" top="0">
+		<Cursor position="13441" topLine="406"/>
+	</File>
+</CodeBlocks_layout_file>

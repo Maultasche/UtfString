@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_workspace_file>
+<CodeBlocks_workspace_file>
+	<Workspace title="UtfString">
+		<Project filename="UtfString.cbp" active="1"/>
+		<Project filename="UtfStringUnitTests.cbp"/>
+	</Workspace>
+</CodeBlocks_workspace_file>

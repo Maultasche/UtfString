@@ -1,0 +1,31 @@
+**The Structure of the Include Files**
+- Include files are put in a subdirectory under the include directory,
+  because when the library is installed on a Unix-style operating
+  system, the include files are put in a standard include directory
+  containing all the include files for all the other installed libraries
+  on the system.  This useful system establishes a good way to keep
+  track of installed libraries, and provides a standard place for all
+  programs to look for library include files. The disadvantage
+  of this is that the system could wind up with a directory full of 
+  a bunch of mixed-up include files from many different libraries, and
+  there is a possibility of file name conflicts, should different
+  libraries have include files with the same name.  So a separate 
+  subdirectory helps keeps the include files from this library separate 
+  from those of other libraries. Windows operating systems don't need 
+  this because there is no standard library installation process: the 
+  library files are simply put wherever and the developer has to tell 
+  the compiler where they are located.
+ 
+ **Inheritance vs. Encapsulation**
+- Utf8String and Utf16String encapsulate an instance of an STL string
+  class. Originally, these classes inherited an STL string class, but
+  that had to be changed to encapsulation after I learned that string
+  and basic_string have non-virtual destructors. Inheriting classes with
+  non-virtual destructors can possibly result in problems, as the behavior
+  of the derived class in this situation is undefined.  Although it is
+  probably unlikely that problems would develop, since the Utf8String and 
+  Utf16String destructors don't do anything, there's no guarantee of that.
+  Hence the decision for Utf8String and Utf16String to encapsulate the
+  STL string classes instead.
+
+
