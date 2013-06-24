@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UtfString", "UtfString.vcxproj", "{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Static Debug|Win32 = Static Debug|Win32
+		Static Release|Win32 = Static Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Debug|Win32.Build.0 = Debug|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Release|Win32.ActiveCfg = Release|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Release|Win32.Build.0 = Release|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Static Debug|Win32.ActiveCfg = Static Debug|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Static Debug|Win32.Build.0 = Static Debug|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Static Release|Win32.ActiveCfg = Static Release|Win32
+		{132D13DA-BEB9-4B35-BF05-76ED4E19C31F}.Static Release|Win32.Build.0 = Static Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

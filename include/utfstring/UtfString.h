@@ -119,6 +119,10 @@ Define UTFSTRING_DLL when linking to dll
 	UTFSTRING_EXPORTTEMPLATE template class UTFSTRING_DLLEXPORT std::reverse_iterator<std::basic_string<UInt16>::const_iterator>;
 #endif
 
+#ifdef VS2012
+	#define WCHAR_T_16BIT
+#endif
+
 #ifdef GCC
 	#define WCHAR_T_16BIT
 #endif
