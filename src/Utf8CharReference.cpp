@@ -231,7 +231,7 @@ Utf8CharReference::operator Utf16Char() const
 	//equivalent
 	UInt16 utf16CodeUnits[2];
 	char utf8CodeUnits[4];
-	size_t utf16CodeUnitCount;
+	size_t utf16CodeUnitCount = 2;
 
 	//Copy the UTF-8 code units to the buffer
 	for(size_t codeUnitIndex = 0; codeUnitIndex < codeUnitCount; ++codeUnitIndex)
