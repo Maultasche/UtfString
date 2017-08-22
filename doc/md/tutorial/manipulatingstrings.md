@@ -8,7 +8,7 @@ parameters.
 
 If you aren't already familiar with the ```std::string``` class, the UtfString classes should still
 be easy to learn.  Take a look at the ```Utf8String``` and ```Utf16String``` 
-[class documentation](../../html/annotated.html).  
+[class documentation](http://maultasche.github.io/UtfString/doc/html/annotated.html).  
 Many of the names of themember functions will clearly indicate what they do, and they are all 
 well-documented if there you want to know exactly what they do.
 
@@ -123,7 +123,7 @@ You should be aware that many of the functions expect certain preconditions when
 are called.  The replace() function, for example, is expecting the index of the first character
 to be the index of an actual character (index < length()). Most of the functions expect the string
 to be valid (is_valid == true).  These expectations are documented 
-in the function documentation in the UtfString [Class Reference](../../html/annotated.html). 
+in the function documentation in the UtfString [Class Reference](http://maultasche.github.io/UtfString/doc/html/annotated.html). 
 The UtfString library expects the programmer to be aware of these.
 The UtfString library was designed with performance in mind, so does not check to make sure
 these expectations have been met in release builds: it is the programmer's job to make sure

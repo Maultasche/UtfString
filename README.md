@@ -55,7 +55,7 @@ resulting in UTF-32 characters always being fixed width. A UTF-32 string class c
 fixed-width characters would be easy to create, particularly using the C++ Standard 
 Template Library's ```basic_string<>``` class.
 
-You can either go from here to look at the [UtfString Class Reference](doc/html/annotated.html), 
+You can either go from here to look at the [UtfString Class Reference](http://maultasche.github.io/UtfString/doc/html/annotated.html), 
 or the [UtfString Tutorial](doc/md/tutorial/tutorial.md), which explains in more 
 detail how to use this library and gives background information about Unicode and the UTF encodings. 
 In addition, you can look at the [Design and Implementation Overview](doc/md/designimploverview.md) 
@@ -63,7 +63,7 @@ to read about some of the library design and implementation details.
 
 ## Contents
 
-* [Class Reference](doc/html/annotated.html)
+* [Class Reference](http://maultasche.github.io/UtfString/doc/html/annotated.html)
 * [Tutorial](doc/md/tutorial/tutorial.md)
   1. [Unicode Overview](doc/md/tutorial/unicodeoverview.md) - Gives an overview of Unicode, important
 	Unicode concepts, and how those concepts relate to the UtfString library
