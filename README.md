@@ -55,25 +55,26 @@ resulting in UTF-32 characters always being fixed width. A UTF-32 string class c
 fixed-width characters would be easy to create, particularly using the C++ Standard 
 Template Library's ```basic_string<>``` class.
 
-You can either go from here to look at the [UtfString Class Reference](docs/html/annotated.html), 
-or the [UtfString Tutorial](docs/md/tutorial.md), which explains in more 
+You can either go from here to look at the [UtfString Class Reference](doc/html/annotated.html), 
+or the [UtfString Tutorial](doc/md/tutorial/tutorial.md), which explains in more 
 detail how to use this library and gives background information about Unicode and the UTF encodings. 
-In addition, you can look at the [Design and Implementation Overview](docs/md/designimploverview.md) 
+In addition, you can look at the [Design and Implementation Overview](doc/md/designimploverview.md) 
 to read about some of the library design and implementation details.
 
 ## Contents
 
-* [Class Reference](docs/html/annotated.html)
-* [Tutorial](docs/md/tutorial.md)
-  1. [Unicode Overview](docs/md/tutorial/unicodeoverview.md) - Gives an overview of Unicode, important
+* [Class Reference](doc/html/annotated.html)
+* [Tutorial](doc/md/tutorial/tutorial.md)
+  1. [Unicode Overview](doc/md/tutorial/unicodeoverview.md) - Gives an overview of Unicode, important
 	Unicode concepts, and how those concepts relate to the UtfString library
-  2. [Initializing and Assigning Values to a UtfString](docs/md/tutorial/initializingassigningutfstring.md) - A guide on how initialize and assign values to a UtfString
-  3. [Using Characters](docs/md/tutorial/usingutfchars.md) - A guide on how characters are represented in the UtfString library and how to use them
-  4. [Manipulating Strings](docs/md/tutorial/manipulatingstrings.md) - A guide on how to manipulate strings in the UtfString library
-  5. [Using Iterators](docs/md/tutorial/usingiterators.md) - A guide on how to use iterators to iterate through strings in the UtfString library
-  6. [Using UnicodeString](docs/md/tutorial/unicodestring.md) - An introduction to the UnicodeString class and when to use it
-* [Building and Using UtfString](docs/md/buildingusingutfstring.md)
-* [Developer's Notes](docs/md/developersnotes.md)
+  2. [Initializing and Assigning Values to a UtfString](doc/md/tutorial/initializingassigningutfstring.md) - A guide on how initialize and assign values to a UtfString
+  3. [Using Characters](doc/md/tutorial/usingutfchars.md) - A guide on how characters are represented in the UtfString library and how to use them
+  4. [Manipulating Strings](doc/md/tutorial/manipulatingstrings.md) - A guide on how to manipulate strings in the UtfString library
+  5. [Using Iterators](doc/md/tutorial/usingiterators.md) - A guide on how to use iterators to iterate through strings in the UtfString library
+  6. [Using UnicodeString](doc/md/tutorial/unicodestring.md) - An introduction to the UnicodeString class and when to use it
+* [Building and Using UtfString](doc/md/buildingusingutfstring.md)
+* [Guidelines to Follow When Using UtfString](doc/md/usingutfstringguidelines.md)
+* [Developer's Notes](doc/md/developersnotes.md)
 
 ## License
 
