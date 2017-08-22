@@ -49,3 +49,7 @@ the UnicodeString instance to a Utf8String or Utf16String instance as soon as po
 memory-efficient with standard ASCII characters and is backward-compatible with code written for ASCII characters.
 
 Most software uses UTF-8 as the internal encoding.
+
+[Go to Tutorial](tutorial.md)
+
+[Go to Main Page](/README.md)

@@ -187,3 +187,7 @@ Utf16String utf16String = wideString;
 utf8String = narrowString;
 utf16String = narrowString;
 ```
+
+[Go to Tutorial](tutorial.md)
+
+[Go to Main Page](/README.md)

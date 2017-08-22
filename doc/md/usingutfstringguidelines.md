@@ -27,3 +27,7 @@ codes (\\xhh).
 7. When a source code file is saved as UTF-16, it is easier to simply assign a UTF-16 string 
 constant to a ```Utf8String``` object rather than create a UTF-8 
 string literal. The conversion to UTF-8 is done automatically.
+
+[Go to Tutorial](tutorial/tutorial.md)
+
+[Go to Main Page](/README.md)

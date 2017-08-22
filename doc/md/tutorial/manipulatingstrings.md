@@ -215,3 +215,7 @@ unit of that code point is located.  The code_point_index() takes the index of a
 code unit string and returns the index of the corresponding code point. These functions make
 it much easier to work with a string of code units, providing you have the corresponding 
 UtfString.
+
+[Go to Tutorial](tutorial.md)
+
+[Go to Main Page](/README.md)

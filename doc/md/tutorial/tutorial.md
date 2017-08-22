@@ -28,3 +28,6 @@ mentions a specific class name, the concept applies only to that specific class.
 * [Using Iterators](usingiterators.md) - A guide on how to use iterators to iterate through strings in the UtfString library
 * [Using UnicodeString](unicodestring.md) - An introduction to the UnicodeString class and when to use it
 * [Building And Using UtfString](../buildingusingutfstring.md) - A guide on how to build the UtfString library and use it in your applications
+
+
+[Go to Main Page](/README.md)

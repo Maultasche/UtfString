@@ -128,3 +128,5 @@ I welcome contributions to this project.  Currently, I need people to use UtfStr
 own projects and let me know how it is working for them. Bug reports and suggested improvements
 are welcome.  Build system improvements (CMake anyone?) or especially welcome as is
 assistance on building an rpm or Debian package.
+
+[Go to Main Page](/README.md)

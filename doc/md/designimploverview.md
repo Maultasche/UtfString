@@ -59,3 +59,7 @@ general-use string class, but is intended as a class to be used when the program
 what encoding will be used at runtime. Due to the extra level of complexity in the UnicodeString 
 class (it needs to call methods on the encapsulated encoding-specific object), the U
 ```tf8String``` and ```Utf16String``` classes are more efficient. 
+
+[Go to Tutorial](tutorial/tutorial.md)
+
+[Go to Main Page](/README.md)

@@ -213,3 +213,7 @@ the terms "character" and "code point" interchangeably. From UtfString's perspec
 thing.
 
 Further information about Unicode can be found at the official [Unicode website](http://www.unicode.org).
+
+[Go to Tutorial](tutorial.md)
+
+[Go to Main Page](/README.md)

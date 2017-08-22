@@ -45,5 +45,6 @@ faster, or at the very least the same speed, than the postfix increment and decr
 operators.  However, feel free to use the postfix operator when necessary.  It's at least as fast
 as doing a prefix increment/decrement followed by a dereference.
 
-[Return to Tutorial](tutorial.md)
-[Return to Main Page](/README.md)
+[Go to Tutorial](tutorial.md)
+
+[Go to Main Page](/README.md)

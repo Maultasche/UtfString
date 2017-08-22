@@ -193,3 +193,7 @@ utf8String[4][0] = 'A';
 
 assert(utf8String == "PineATree");
 ```
+
+[Go to Tutorial](tutorial.md)
+
+[Go to Main Page](/README.md)
